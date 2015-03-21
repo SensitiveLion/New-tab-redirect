@@ -1,0 +1,134 @@
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+	/* Simple page reset */
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration: none;
+	color:#000;
+}
+
+input{
+	font-size: 23px;
+	display:block;
+	float:left;
+	height:40px;
+	background-color:#444;
+	border:0;
+	-webkit-box-shadow:0 0 16px black;
+	-moz-box-shadow:0 0 16px black;
+	box-shadow:0 0 16px black;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	margin-bottom:25px;
+}
+
+input.text{
+	width:584px;
+	margin-left:24px;
+	background: #c4c4c4; /* old browsers */
+	background: -moz-linear-gradient(top, #c4c4c4 0%, #a1a1a1 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c4c4c4), color-stop(100%,#a1a1a1)); /* webkit */
+	background: -o-linear-gradient(top, #c4c4c4 0%,#a1a1a1 100%); /* opera */
+}
+
+input.submit{
+	text-align:center;
+	width:40;
+	margin-left:24px;
+	background: #f4f4f4; /* old browsers */
+	background: -moz-linear-gradient(top, #f4f4f4 0%, #e1e1e1 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f4f4), color-stop(100%,#e1e1e1)); /* webkit */
+	background: -o-linear-gradient(top, #f4f4f4 0%,#e1e1e1 100%); /* opera */
+}
+
+input.text:hover {
+	background: #d5d5d5; /* old browsers */
+	background: -moz-linear-gradient(top, #d5d5d5 0%, #b6b6b6 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d5d5d5), color-stop(100%,#b6b6b6)); /* webkit */
+	background: -o-linear-gradient(top, #d5d5d5 0%,#b6b6b6 100%); /* opera */
+	-webkit-box-shadow:0 0 16px #d5d5d5;
+	-moz-box-shadow:0 0 16px #d5d5d5;
+	box-shadow:0 0 16px #d5d5d5;
+}
+
+input.submit:hover {
+	background: #ffffff; /* old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #eeeeee 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee)); /* webkit */
+	background: -o-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* opera */
+	-webkit-box-shadow:0 0 16px #ffffff;
+	-moz-box-shadow:0 0 16px #ffffff;
+	box-shadow:0 0 16px #ffffff;
+}
+
+body{
+	/* Setting default text color, background and a font stack */
+	color:#000;
+	font-size:32px;
+	line-height:32px;
+	background-color: #242424;
+	background: url('Stripes1920.png') center top;
+	font-family:Century Gothic;
+}
+
+#container{
+	width: 896px;
+	margin:auto;
+	padding-top:25px;
+	display:block;
+	text-align:center;
+}
+
+#descriptor{
+	text-align:right;
+	color:#fff;
+	font-size:27px;
+	width:212px;
+	display:block;
+	float:left;
+	height:65px;
+}
+
+#column{
+	width: 200px;
+	margin: 12px 12px 0 12px;
+	float: left;
+	display: block;
+	text-align: center;
+}
+
+li{
+	list-style-type: none;
+	margin-bottom:25px;
+	-webkit-box-shadow:0 0 16px black;
+	-moz-box-shadow:0 0 16px black;
+	box-shadow:0 0 16px black;
+	text-align:center;
+	width: 200px;
+	padding-top:34px;
+	padding-bottom:34px;
+	background: #f4f4f4; /* old browsers */
+	background: -moz-linear-gradient(top, #f4f4f4 0%, #e1e1e1 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f4f4), color-stop(100%,#e1e1e1)); /* webkit */
+	background: -o-linear-gradient(top, #f4f4f4 0%,#e1e1e1 100%); /* opera */
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+li:hover {
+	background: #ffffff; /* old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #eeeeee 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee)); /* webkit */
+	background: -o-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* opera */
+	-webkit-box-shadow:0 0 16px #ffffff;
+	-moz-box-shadow:0 0 16px #ffffff;
+	box-shadow:0 0 16px #ffffff;
+}

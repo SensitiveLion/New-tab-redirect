@@ -1,0 +1,91 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Site of Buttons</title>
+
+<link rel="stylesheet" type="text/css" href="styles.css" />
+
+<script type="text/javascript">
+   function formfocus() {
+      document.getElementById('googley').focus();
+   }
+   window.onload = formfocus;
+</script>
+
+</head>
+
+<body>
+<div id="container">
+	<div id="column">
+		<a href="https://www.gmail.com"><li>email</li></a>
+		<a href="http://roosterteeth.com/"><li>roosterteeth</li></a>
+	</div>
+	<div id="column">
+		<a href="http://reddit.com"><li>reddit</li></a>
+		<a href="http://facebook.com"><li>facebook</li></a>
+	</div>
+	<div id="column">
+		<a href="https://drive.google.com/drive"><li>drive</li></a>
+		<a href="http://www.netflix.com/WiHome"><li>netflix</li></a>
+	</div>
+	<div id="column">
+		<a href="http://www.youtube.com/"><li>youtube</li></a>
+		<a href="http://www.amazon.com"><li>amazon</li></a>
+	</div>
+</div>
+<div id="container">
+	<div id="descriptor">google</div>
+	<form action="http://www.google.com/search" method="get">
+		<input type="text" name="q" id="googley" value="" class="text"/>
+		<input type="submit" value="&raquo" class="submit"/>
+	</form>
+</div>
+<div id="container">
+	<div id="descriptor">alpha</div>
+	<form action="http://www.wolframalpha.com/input/" method="get">
+		<input type="text" name="i" value="" class="text"/>
+		<input type="submit" value="&raquo" class="submit"/>
+	</form>
+</div>
+<div id="container">
+	<div id="descriptor">wikipedia</div>
+	<form action="http://en.wikipedia.org/wiki/Special:Search" method="get">
+		<input type="text" name="search" class="text"/>
+		<input type="submit" value="&raquo" class="submit"/>
+	</form>
+</div>
+<div id="container">
+	<div id="descriptor">wiktionary</div>
+	<form action="http://en.wiktionary.org/wiki/Special:Search" method="get">
+		<input type="text" name="search" class="text"/>
+		<input type="submit" value="&raquo" class="submit"/>
+	</form>
+</div>
+<div id="container">
+	<div id="descriptor">youtube</div>
+	<form action="http://www.youtube.com/results" method="get">
+		<input type="text" name="search_query" class="text"/>
+		<input type="submit" value="&raquo" class="submit"/>
+	</form>
+</div>
+
+<div id="container">
+	<div id="column">
+		<a href="https://horizon.launchacademy.com/dashboard"><li>herizon</li></a>
+		<a href="http://ruby-doc.org/"><li>ruby.doc</li></a>
+	</div>
+	<div id="column">
+		<a href="http://www.github.com"><li>github</li></a>
+		<a href="http://8tracks.com/"><li>8tracks</li></a>
+	</div>
+	<div id="column">
+		<a href="https://stackedit.io/editor"><li>stack edit</li></a>
+		<a href="https://play.google.com/music/listen"><li>play music</li></a>
+	</div>
+	<div id="column">
+		<a href="http://www.cracked.com/"><li>cracked</li></a>
+		<a href="http://stackoverflow.com/"><li>S/O</li></a>
+	</div>
+</div>
+</body>
+</html>
